@@ -12,13 +12,12 @@
 
 ### 💫 About Me
 
-- 🔭 **Current Focus:** Building RAG-based AI applications and server architecture projects
-- 👯 **Collaborations:** Open-source AI agent tooling and backend/systems projects
-- 🤝 **Seeking Guidance:** Advanced RHEL administration and production AI agent orchestration
-- 🌱 **Learning:** Cybersecurity, AI Agents, Computer Networking, and Red Hat Enterprise Linux (RHEL)
-- 💬 **Ask Me About:** Python, RAG workflows, Linux terminals/commands, and network protocols
+- 🔭 **Current Focus:** Building Linux server architecture projects, network monitoring systems, and infrastructure tools
+- 👯 **Collaborations:** Open-source networking utilities, systems engineering, and Linux automation projects
+- 🤝 **Seeking Guidance:** Advanced RHEL administration, network security architecture, and system performance tuning
+- 🌱 **Learning:** Cybersecurity, Computer Networking, and Red Hat Enterprise Linux (RHEL)
+- 💬 **Ask Me About:** Linux system administration, Computer Networking, Bash/Python automation, and server configuration
 - ⚡ **Motto:** *"Jack of all trades, master of none, but oftentimes better than a master of one."*
-
 ---
 
 ### 💻 Tech Stack
