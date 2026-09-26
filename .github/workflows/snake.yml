@@ -27,8 +27,8 @@ jobs:
           github_user_name: Lakshbethariya
 
           outputs: |
-            dist/github-snake.svg?color_snake=%23a855f7&color_dots=%23ebedf0,%23d8b4fe,%23a855f7,%2322c55e,%2316a34a
-            dist/github-snake-dark.svg?color_snake=%23c084fc&color_dots=%23161b22,%23a78bfa,%238a5cf5,%2322c55e,%2300ff88
+            dist/github-snake.svg?color_snake=%23a855f7&color_dots=%23ebedf0,%23dcfce7,%2322c55e,%2316a34a,%2315803d
+            dist/github-snake-dark.svg?color_snake=%23c084fc&color_dots=%23161b22,%23bbf7d0,%2322c55e,%2300ff88,%2300a83b
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
