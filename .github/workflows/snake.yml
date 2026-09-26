@@ -1,37 +1,31 @@
-name: Generate Contribution Snake
+name: Generate snake animation
 
 on:
-  schedule:
-    # Run every day at midnight UTC
-    - cron: "0 0 * * *"
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
 
-  # Allows you to run it manually
   workflow_dispatch:
 
-  # Also regenerate whenever README/workflow changes are pushed
   push:
     branches:
-      - main
+    - main
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
-
     permissions:
       contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - name: Generate green snake
-        uses: Platane/snk@v3
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: Lakshbethariya
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?palette=github-dark&color_snake=%2322c55e&color_dots=%23161b22,%23064e3b,%23047857,%2322c55e,%2300ff88
 
-          outputs: |
-            dist/github-snake.svg?color_snake=%2322c55e&color_dots=%23ebedf0,%23dcfce7,%2386efac,%2322c55e,%2316a34a
-            dist/github-snake-dark.svg?color_snake=%2300ff88&color_dots=%23161b22,%23064e3b,%23047857,%2322c55e,%2300ff88
-
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
