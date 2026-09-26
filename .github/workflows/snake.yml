@@ -21,14 +21,14 @@ jobs:
       contents: write
 
     steps:
-      - name: Generate green-purple snake
+      - name: Generate green snake
         uses: Platane/snk@v3
         with:
           github_user_name: Lakshbethariya
 
           outputs: |
-            dist/github-snake.svg?color_snake=%23a855f7&color_dots=%23ebedf0,%23d8b4fe,%23a855f7,%2322c55e,%2316a34a
-            dist/github-snake-dark.svg?color_snake=%23c084fc&color_dots=%23161b22,%23a78bfa,%238a5cf5,%2322c55e,%2300ff88
+            dist/github-snake.svg?color_snake=%2322c55e&color_dots=%23ebedf0,%2386efac,%234ade80,%2322c55e,%2316a34a
+            dist/github-snake-dark.svg?color_snake=%2339d353&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
