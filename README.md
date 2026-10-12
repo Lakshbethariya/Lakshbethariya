@@ -12,14 +12,14 @@
 
 ### 💫 About Me
 
-- 🔭 **Current Focus:** Building Linux server architecture projects, network monitoring systems, and infrastructure tools
-- 👯 **Collaborations:** Open-source networking utilities, systems engineering, and Linux automation projects
-- 🤝 **Seeking Guidance:** Advanced RHEL administration, network security architecture, and system performance tuning
+- 🔭 **Current Focus:** Linux server architecture, cybersecurity homelabs, network monitoring, and infrastructure tools
+- 👯 **Collaborations:** Open-source networking utilities, systems engineering, and Linux automation
+- 🤝 **Seeking Guidance:** Advanced RHEL administration, network security, and performance tuning
 - 🌱 **Learning:** Cybersecurity, Computer Networking, and Red Hat Enterprise Linux (RHEL)
-- 💬 **Ask Me About:** Linux system administration, Computer Networking, Bash/Python automation, and server configuration
+- 💬 **Ask Me About:** Linux administration, networking, Bash/Python automation, and server configuration
 - ⚡ **Motto:** *"Jack of all trades, master of none, but oftentimes better than a master of one."*
----
 
+---
 ### 💻 Tech Stack
 
 <div align="center">
